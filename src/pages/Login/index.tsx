@@ -17,7 +17,7 @@ const Login = () => {
   const handleLoginBtnClick = (values: any) => {
     const res = loginStore.login(values);
     if (res) {
-      navigate("/", { replace: true });
+      navigate("/first-hop", { replace: true });
     }
   };
 
@@ -42,7 +42,7 @@ const Login = () => {
               placeholder={
                 <div className="flex items-center">
                   <RoleIcon />
-                  <div className="m-l-1">请选择角色</div>
+                  <div className="m-l-1">请选择角色，默认选择管理员</div>
                 </div>
               }
               options={[

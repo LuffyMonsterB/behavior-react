@@ -9,15 +9,18 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "@jiaminghi/data-view-react": "^1.2.5",
     "@unocss/cli": "^0.55.3",
     "antd": "^5.8.5",
     "mobx": "^6.10.1",
     "mobx-react-lite": "^4.0.4",
+    "mockjs": "^1.1.0",
     "umi": "^4.0.78",
     "unocss": "^0.55.3"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.1.54",
+    "@types/mockjs": "^1.0.7",
     "@types/react": "^18.0.33",
     "@types/react-dom": "^18.0.11",
     "@umijs/plugins": "^4.0.78",

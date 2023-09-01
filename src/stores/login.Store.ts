@@ -23,4 +23,9 @@ export class LoginStore {
     }
     return false
   }
+  logout() {
+    localStorage.removeItem('role')
+    localStorage.removeItem('token')
+    localStorage.removeItem('account')
+  }
 }
